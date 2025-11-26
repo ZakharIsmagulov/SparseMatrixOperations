@@ -1,0 +1,102 @@
+Матрицы 8000 на 20000:
+
+Multiply by alpha for 5% matrix time:
+Dense Matrix:
+Parallel:   0.676 s
+Sequential: 1.178 s
+COO Matrix:
+Parallel:   0.0419998 s
+Sequential: 0.0570002 s
+CSR Matrix:
+Parallel:   0.0279999 s
+Sequential: 0.0480001 s
+CSC Matrix:
+Parallel:   0.033 s
+Sequential: 0.0519998 s
+
+Multiply by alpha for 25% matrix time:
+Dense Matrix:
+Parallel:   0.688 s
+Sequential: 1.169 s
+COO Matrix:
+Parallel:   0.165 s
+Sequential: 0.262 s
+CSR Matrix:
+Parallel:   0.143 s
+Sequential: 0.237 s
+CSC Matrix:
+Parallel:   0.136 s
+Sequential: 0.247 s
+
+
+Multiply by vector for 5% matrix time:
+Dense Matrix:
+Parallel:   0.171 s
+Sequential: 0.674 s
+COO Matrix:
+Parallel:   0.046 s
+Sequential: 0.079 s
+CSR Matrix:
+Parallel:   0.02 s
+Sequential: 0.052 s
+CSC Matrix:
+Parallel:   0.036 s
+Sequential: 0.0480001 s
+
+Multiply by vector for 25% matrix time:
+Dense Matrix:
+Parallel:   0.161 s
+Sequential: 0.681 s
+COO Matrix:
+Parallel:   0.209 s
+Sequential: 0.385 s
+CSR Matrix:
+Parallel:   0.059 s
+Sequential: 0.262 s
+CSC Matrix:
+Parallel:   0.101 s
+Sequential: 0.238 s
+
+
+Transposing for 5% matrix time:
+Dense Matrix:
+Parallel:   1.005 s
+Sequential: 2.433 s
+COO Matrix:
+Parallel:   0.0699999 s
+Sequential: 0.138 s
+CSR Matrix:
+Parallel:   0.191 s
+Sequential: 0.18 s
+CSC Matrix:
+Parallel:   0.196 s
+Sequential: 0.196 s
+
+Transposing for 25% matrix time:
+Dense Matrix:
+Parallel:   0.994 s
+Sequential: 2.507 s
+COO Matrix:
+Parallel:   0.323 s
+Sequential: 0.664 s
+CSR Matrix:
+Parallel:   1.041 s
+Sequential: 1.163 s
+CSC Matrix:
+Parallel:   1.115 s
+Sequential: 1.326 s
+
+
+Adding 2 matrices for 5% and 25% time:
+Dense Matrix:
+Parallel:   0.773 s
+Sequential: 1.525 s
+COO Matrix:
+Parallel:   9.164 s
+Sequential: 9.404 s
+CSR Matrix:
+Parallel:   0.447 s
+Sequential: 1.575 s
+CSC Matrix:
+Parallel:   0.455 s
+Sequential: 1.575 s

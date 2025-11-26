@@ -1,0 +1,102 @@
+Матрицы 4000 на 2000:
+
+Multiply by alpha for 5% matrix time:
+Dense Matrix:
+Parallel:   0.0420001 s
+Sequential: 0.056 s
+COO Matrix:
+Parallel:   0.00300002 s
+Sequential: 0.00300002 s
+CSR Matrix:
+Parallel:   0.00200009 s
+Sequential: 0.00199986 s
+CSC Matrix:
+Parallel:   0.00200009 s
+Sequential: 0.00199986 s
+
+Multiply by alpha for 25% matrix time:
+Dense Matrix:
+Parallel:   0.036 s
+Sequential: 0.0569999 s
+COO Matrix:
+Parallel:   0.00900006 s
+Sequential: 0.0139999 s
+CSR Matrix:
+Parallel:   0.00699997 s
+Sequential: 0.013 s
+CSC Matrix:
+Parallel:   0.00700021 s
+Sequential: 0.013 s
+
+
+Multiply by vector for 5% matrix time:
+Dense Matrix:
+Parallel:   0.00900006 s
+Sequential: 0.0320001 s
+COO Matrix:
+Parallel:   0.00199986 s
+Sequential: 0.00400019 s
+CSR Matrix:
+Parallel:   0 s
+Sequential: 0.00300002 s
+CSC Matrix:
+Parallel:   0.00200009 s
+Sequential: 0.00200009 s
+
+Multiply by vector for 25% matrix time:
+Dense Matrix:
+Parallel:   0.00900006 s
+Sequential: 0.033 s
+COO Matrix:
+Parallel:   0.00999999 s
+Sequential: 0.02 s
+CSR Matrix:
+Parallel:   0.00300002 s
+Sequential: 0.0119998 s
+CSC Matrix:
+Parallel:   0.00400019 s
+Sequential: 0.0129998 s
+
+
+Transposing for 5% matrix time:
+Dense Matrix:
+Parallel:   0.0379999 s
+Sequential: 0.0780001 s
+COO Matrix:
+Parallel:   0.00399995 s
+Sequential: 0.00699997 s
+CSR Matrix:
+Parallel:   0.0190001 s
+Sequential: 0.00900006 s
+CSC Matrix:
+Parallel:   0.0120001 s
+Sequential: 0.00699997 s
+
+Transposing for 25% matrix time:
+Dense Matrix:
+Parallel:   0.036 s
+Sequential: 0.075 s
+COO Matrix:
+Parallel:   0.02 s
+Sequential: 0.036 s
+CSR Matrix:
+Parallel:   0.0609999 s
+Sequential: 0.04 s
+CSC Matrix:
+Parallel:   0.0579998 s
+Sequential: 0.0480001 s
+
+
+Adding 2 matrices for 5% and 25% time:
+Dense Matrix:
+Parallel:   0.039 s
+Sequential: 0.079 s
+COO Matrix:
+Parallel:   0.396 s
+Sequential: 0.416 s
+CSR Matrix:
+Parallel:   0.0309999 s
+Sequential: 0.0810001 s
+CSC Matrix:
+Parallel:   0.026 s
+Sequential: 0.0779998 s
